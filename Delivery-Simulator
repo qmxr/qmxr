@@ -9,7 +9,7 @@ end)
 local CoreGui = game:GetService("StarterGui")
 CoreGui:SetCore("SendNotification", {
 	Title = "!THIS IS BACK!";
-	Text = "Any Issues? DM PewSociety#7777";
+	Text = "Any Issues? DM PewSociety#0823 (nitro expired cry)";
 	Duration = 5;
 })
 wait(4)
