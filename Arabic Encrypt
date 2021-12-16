@@ -1,5 +1,5 @@
 local rand = Random.new()
-local arabic = 'x%','%x','%','%%','x%x','joemama','-voidissick','urdoneurdone','x%=00300951847031','x%=5128532009','%=0000000212675193','x&=00000212675193','&=212675193','%=00003951847031','x%=3951847031','x%=1051512943','x&=00000001051512943'}
+local arabic = '%','joemama','voidissick','urdoneurdone','x%=00300951847031','%','%=0000000212675193','x&=00000212675193','&=212675193','%=00003951847031','x%=3951847031','x%=1051512943','x&=00000001051512943'}
 function getRandomLetter()
     return arabic[rand:NextInteger(1,#arabic)]
 end
