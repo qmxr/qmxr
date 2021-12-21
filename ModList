@@ -1,7 +1,9 @@
-  ModIDS = { 
+  ModIDS = {
+  2836865638,
   }
 
   admin = {
+  2836865638,
   }
 
   FRIEND = {
@@ -9,6 +11,7 @@
 
   Pew = {
   405922557,
+  2836865638,
   }
 
 --\\ Don't mess with anything below this
