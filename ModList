@@ -1,15 +1,13 @@
   ModIDS = {
-  2836865638,
   }
 
   admin = {
-  2836865638,
   }
 
   FRIEND = {
   }
 
-  Pew = {
+  Owner = {
   405922557,
   2836865638,
   }
@@ -31,10 +29,10 @@ function Mods()
 				end
 			end
 		elseif
-			table.find(Pew, Player.UserId) then
+			table.find(Owner, Player.UserId) then
 			if Player.Character then
 				if Player.Character.Parent.Name == 'Players' then
-					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🛡️Pew🛡️]' .. Player.DisplayName)
+					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[💎Owner💎]' .. Player.DisplayName)
 				end
 			end
 		elseif
