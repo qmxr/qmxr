@@ -1,0 +1,56 @@
+  ModIDS = { 
+  }
+
+  admin = {
+  }
+
+  FRIEND = {
+  }
+
+  Pew = {
+  405922557,
+  }
+
+--\\ Don't mess with anything below this
+function Mods()
+	for _,Player in pairs(game:GetService('Players'):GetChildren()) do
+		if table.find(ModIDS, Player.UserId) then
+			if Player.Character then
+				if Player.Character.Parent.Name == 'Players' then
+					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[⭐]' .. Player.DisplayName)
+				end
+			end
+		elseif
+			table.find(FRIEND, Player.UserId) then
+			if Player.Character then
+				if Player.Character.Parent.Name == 'Players' then
+					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[👑]' .. Player.DisplayName)
+				end
+			end
+		elseif
+			table.find(Pew, Player.UserId) then
+			if Player.Character then
+				if Player.Character.Parent.Name == 'Players' then
+					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🛡️Pew🛡️]' .. Player.DisplayName)
+				end
+			end
+		elseif
+			table.find(admin, Player.UserId) then
+			if Player.Character then
+				if Player.Character.Parent.Name == 'Players' then
+					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[👑Admin👑]' .. Player.DisplayName)
+				end
+			end
+		if
+			Player.Character then
+			if Player.Character.Parent.Name == 'Players' then
+				if not Player.Character.UpperTorso:FindFirstChild('OriginalSize') then
+					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[😳]' .. Player.DisplayName)
+				end
+			end
+		end
+	end
+	end
+	end
+local success,err = pcall(Mods)
+return ModIDS
