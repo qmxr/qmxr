@@ -16,9 +16,6 @@
   2214969275,
   }
   
-   Xmas = {
-   947355044,
-  }
 
 --\\ Don't mess with anything below this
 function Mods()
@@ -41,13 +38,6 @@ function Mods()
 			if Player.Character then
 				if Player.Character.Parent.Name == 'Players' then
 					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[💎]' .. Player.DisplayName)
-				end
-			end
-		elseif
-			table.find(Xmas, Player.UserId) then
-			if Player.Character then
-				if Player.Character.Parent.Name == 'Players' then
-					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🎄]' .. Player.DisplayName)
 				end
 			end
 		elseif
