@@ -1,0 +1,11 @@
+
+ModIDS = {
+
+[405922557] = true, --Pew
+[2214969275]  = true, --Sinful
+[2836865638] = true, --Pew_Alt
+[2301122135] = true, --FRIEND
+[470887230] = true, --FRIEND
+}
+
+return ModIDS
