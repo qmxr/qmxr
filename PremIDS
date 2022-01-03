@@ -1,5 +1,5 @@
 
-IDS = {
+MODS = {
 
 [405922557] = true, --Pew
 [2214969275]  = true, --Sinful
@@ -8,4 +8,4 @@ IDS = {
 [470887230] = true, --FRIEND
 }
 
-return IDS
+return MODS
