@@ -1,5 +1,5 @@
 
-ModIDS = {
+IDS = {
 
 [405922557] = true, --Pew
 [2214969275]  = true, --Sinful
@@ -8,4 +8,4 @@ ModIDS = {
 [470887230] = true, --FRIEND
 }
 
-return ModIDS
+return IDS
