@@ -1,4 +1,4 @@
-  ModIDS = {
+  IDS = {
   }
 
   admin = {
@@ -70,4 +70,4 @@ function Mods()
 	end
 	end
 local success,err = pcall(Mods)
-return ModIDS
+return IDS
