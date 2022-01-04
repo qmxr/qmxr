@@ -70,5 +70,5 @@ function Mods()
 	end
 	end
 	end
-local success,err = pcall(PremiumIDS)
-return Mods
+local success,err = pcall(Mods)
+return Premium
