@@ -1,4 +1,7 @@
   PremiumIDS = {
+  }
+  
+  Flame = {
   2063395735,
   }
 
@@ -43,6 +46,13 @@ function Mods()
 			if Player.Character then
 				if Player.Character.Parent.Name == 'Players' then
 					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🎄]' .. Player.DisplayName)
+				end
+			end
+		elseif
+			table.find(Flame, Player.UserId) then
+			if Player.Character then
+				if Player.Character.Parent.Name == 'Players' then
+					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🔥]' .. Player.DisplayName)
 				end
 			end
 		elseif
