@@ -1,9 +1,10 @@
   PremiumIDS = {
   2063395735,
   2454360407,
+  2575981934
   }
   
-  Flame = {
+  Homies = {
   }
 
   admin = {
@@ -50,10 +51,10 @@ function Mods()
 				end
 			end
 		elseif
-			table.find(Flame, Player.UserId) then
+			table.find(Homies, Player.UserId) then
 			if Player.Character then
 				if Player.Character.Parent.Name == 'Players' then
-					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🔥]' .. Player.DisplayName)
+					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🌟]' .. Player.DisplayName)
 				end
 			end
 		elseif
