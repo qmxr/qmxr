@@ -29,7 +29,6 @@ MODS = {
 [767262120] = true,
 [2982344567] = true,
 [3198089005] = true,
-[3207766524] = true,
 }
 
 return Premium
