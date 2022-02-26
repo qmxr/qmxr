@@ -37,4 +37,4 @@ ModIDS = {
 
 }
 
-return ModIDS
+return ModCheck
