@@ -1,4 +1,4 @@
-ModIDS = {
+Premium = {
   [2214969275] = true,
   [2836865638] = true, 
   [2301122135] = true,
@@ -36,5 +36,4 @@ ModIDS = {
   [3067503568] = true,
 
 }
-
 return Premium
