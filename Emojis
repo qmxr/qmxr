@@ -9,15 +9,25 @@ Premium = {
 3268139496,
 3138098390,
 335504007,
+1998356518,
+346500309,
+185663792,
 }
 
 Pew = {
 405922557,
 2927206269,
+393817044,
 }
 
 Sinful = {
 474478606,
+2788229376,
+}
+
+Clown = {
+1373975974,
+2732301595,
 }
 
 --\\ Don't mess with anything below this
@@ -34,6 +44,13 @@ function Emojis()
 			if Player.Character then
 				if Player.Character.Parent.Name == 'Players' then
 					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[💎]' .. Player.DisplayName)
+				end
+			end
+		elseif
+		table.find(Clown, Player.UserId) then
+			if Player.Character then
+				if Player.Character.Parent.Name == 'Players' then
+					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🤡]' .. Player.DisplayName)
 				end
 			end
 		elseif
