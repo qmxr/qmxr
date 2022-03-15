@@ -1,7 +1,6 @@
 Premium = {
   [474478606] = true, --Sinful
   [405922557] = true, -- me
-  [2788229376] = true, --SinfulALT
   [1538658578] = true,
   [1386366128] = true,
   [3183969638] = true,
@@ -19,5 +18,6 @@ Premium = {
   [1373975974] = true,
   [2732301595] = true,
   [2927202295] = true,
+  [2237076591] = true,
 }
 return Premium

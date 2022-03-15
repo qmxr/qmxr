@@ -18,11 +18,11 @@ Pew = {
 405922557,
 2927206269,
 393817044,
+2237076591,
 }
 
 Sinful = {
 474478606,
-2788229376,
 }
 
 Clown = {
@@ -43,7 +43,7 @@ function Emojis()
 		  table.find(Sinful, Player.UserId) then
 			if Player.Character then
 				if Player.Character.Parent.Name == 'Players' then
-					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[💎]' .. Player.DisplayName)
+					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[👑]' .. Player.DisplayName)
 				end
 			end
 		elseif
