@@ -31,5 +31,6 @@ Premium = {
   [1211524871] = true,
   [1309084745] = true,
   [583322628] = true,
+  [529313087] = true,
 }
 return Premium
