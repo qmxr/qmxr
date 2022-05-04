@@ -1,6 +1,5 @@
 Premium = {
 1538658578,
-1386366128,
 3183969638,
 2669687116,
 178704650,
@@ -11,7 +10,7 @@ Premium = {
 335504007,
 1998356518,
 346500309,
-185663792,
+2512645341, --// <589494110319149067> Switched to Alt.
 2495278834,
 3173011632,
 3072006134,
@@ -37,51 +36,45 @@ Sleepy = {
 }
 
 Clown = {
-1373975974,
-2732301595,
-76546445,
 }
-
---\\ Don't mess with anything below this
 function Emojis()
-	for _,Player in pairs(game:GetService('Players'):GetChildren()) do
-		if table.find(Premium, Player.UserId) then
-		  if Player.Character then
+	for _,player in pairs(game:GetService('Players'):GetChildren()) do
+		if table.find(Premium, player.UserId) then
+		  if player.Character then
 				if Player.Character.Parent.Name == 'Players' then
-					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[⭐]' .. Player.DisplayName)
+					player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[⭐]' .. player.DisplayName)
 				end
 			end
 		elseif
-		  table.find(Sleepy, Player.UserId) then
-			if Player.Character then
-				if Player.Character.Parent.Name == 'Players' then
-					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[👑]' .. Player.DisplayName)
+		  table.find(Sleepy, player.UserId) then
+			if player.Character then
+				if player.Character.Parent.Name == 'Players' then
+					player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[👑]' .. player.DisplayName)
 				end
 			end
 		elseif
-		table.find(Clown, Player.UserId) then
-			if Player.Character then
-				if Player.Character.Parent.Name == 'Players' then
-					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🤡]' .. Player.DisplayName)
+		table.find(Clown, player.UserId) then
+			if player.Character then
+				if player.Character.Parent.Name == 'Players' then
+					player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🤡]' .. player.DisplayName)
 				end
 			end
 		elseif
-		  table.find(Pew, Player.UserId) then
-			if Player.Character then
-				if Player.Character.Parent.Name == 'Players' then
-					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[💠]' .. Player.DisplayName)
+		  table.find(Pew, player.UserId) then
+			if player.Character then
+				if player.Character.Parent.Name == 'Players' then
+					player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[💠]' .. player.DisplayName)
 				end
 			end
 		if
-		   Player.Character then
-			if Player.Character.Parent.Name == 'Players' then
-				if not Player.Character.UpperTorso:FindFirstChild('OriginalSize') then
-					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[😳]' .. Player.DisplayName)
+		   player.Character then
+			if player.Character.Parent.Name == 'Players' then
+				if not player.Character.UpperTorso:FindFirstChild('OriginalSize') then
+					player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[😳]' .. player.DisplayName)
 				end
 			end
 		end
 	end
-	end
-	end
-local success,err = pcall(Emojis)
+   end
+end
 return Premium
