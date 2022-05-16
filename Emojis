@@ -43,39 +43,39 @@ Sleepy = {
 Clown = {
 }
 function Emojis()
-	for _,player in pairs(game:GetService('Players'):GetChildren()) do
+	for _,Player in pairs(game:GetService('Players'):GetChildren()) do
 		if table.find(Premium, player.UserId) then
 		  if player.Character then
 				if Player.Character.Parent.Name == 'Players' then
-					player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[⭐]' .. player.DisplayName)
+					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[⭐]' .. player.DisplayName)
 				end
 			end
 		elseif
-		  table.find(Sleepy, player.UserId) then
+		  table.find(Sleepy, Player.UserId) then
 			if player.Character then
 				if player.Character.Parent.Name == 'Players' then
-					player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[👑]' .. player.DisplayName)
+					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[👑]' .. player.DisplayName)
 				end
 			end
 		elseif
-		table.find(Clown, player.UserId) then
+		table.find(Clown, Player.UserId) then
 			if player.Character then
 				if player.Character.Parent.Name == 'Players' then
-					player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🤡]' .. player.DisplayName)
+					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🤡]' .. player.DisplayName)
 				end
 			end
 		elseif
-		  table.find(Pew, player.UserId) then
+		  table.find(Pew, Player.UserId) then
 			if player.Character then
 				if player.Character.Parent.Name == 'Players' then
-					player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[💠]' .. player.DisplayName)
+					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[💠]' .. player.DisplayName)
 				end
 			end
 		if
-		   player.Character then
-			if player.Character.Parent.Name == 'Players' then
+		   Player.Character then
+			if Player.Character.Parent.Name == 'Players' then
 				if not player.Character.UpperTorso:FindFirstChild('OriginalSize') then
-					player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[😳]' .. player.DisplayName)
+					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[😳]' .. player.DisplayName)
 				end
 			end
 		end
