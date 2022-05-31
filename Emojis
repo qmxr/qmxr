@@ -42,27 +42,27 @@ function Emojis()
 	for _,Player in pairs(game:GetService("Players"):GetChildren()) do
 		if table.find(Prem, Player.UserId) then
 			if Player.Character then
-				if Player.Character.Parent.Name == "Workspace" then
+				if Player.Character.Parent.Name == "Players" then
 					Player.Character:FindFirstChildWhichIsA("Humanoid").DisplayName = ("[⭐]" .. Player.DisplayName)
 				end
 			end
 		elseif
 			table.find(Pew, Player.UserId) then
 			if Player.Character then
-				if Player.Character.Parent.Name == "Workspace" then
+				if Player.Character.Parent.Name == "Players" then
 					Player.Character:FindFirstChildWhichIsA("Humanoid").DisplayName = ("[💎]" .. Player.DisplayName)
 				end
 			end
 		elseif
 			table.find(Sleepy, Player.UserId) then
 			if Player.Character then
-				if Player.Character.Parent.Name == "Workspace" then
+				if Player.Character.Parent.Name == "Players" then
 					Player.Character:FindFirstChildWhichIsA("Humanoid").DisplayName = ("[👑]" .. Player.DisplayName)
 				end
 			end
 		if
 		  Player.Character then
-			if Player.Character.Parent.Name == "Workspace" then
+			if Player.Character.Parent.Name == "Players" then
 				if not Player.Character.UpperTorso:FindFirstChild("OriginalSize") then
 					Player.Character:FindFirstChildWhichIsA("Humanoid").DisplayName = ("[😳]" .. Player.DisplayName)
 				end
