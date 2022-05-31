@@ -37,14 +37,14 @@ end
 
 local f  = "timsece"
 if game.Players:FindFirstChild(f) then
-    if game.Players:FindFirstChild(f).Character.Humanoid.DisplayName == (" Iloveliana ") then
+    if game.Players:FindFirstChild(f).Character.Humanoid.DisplayName == ("Iloveliana") then
         game.Players:FindFirstChild(f).Character.Humanoid.DisplayName = ("[😳]"..game.Players:FindFirstChild(f).Character.Humanoid.DisplayName.. " | ages")
     end
 end
 
 local g  = "manipulate01"
 if game.Players:FindFirstChild(g) then
-    if game.Players:FindFirstChild(g).Character.Humanoid.DisplayName == ("") then
+    if game.Players:FindFirstChild(g).Character.Humanoid.DisplayName == ("NftExtortionGoddess") then
         game.Players:FindFirstChild(g).Character.Humanoid.DisplayName = ("[🥺]"..game.Players:FindFirstChild(g).Character.Humanoid.DisplayName.. " | Babi")
     end
 end
