@@ -5,7 +5,7 @@ if game.Players:FindFirstChild(a) then
 end
 local aa = "Gusate666"
 if game.Players:FindFirstChild(aa) then    
-    game.Players:FindFirstChild(aa).Character.Humanoid.DisplayName = ("[💎]"..game.Players:FindFirstChild(aa).Character.Humanoid.DisplayName.. " | Pew")
+    game.Players:FindFirstChild(aa).Character.Humanoid.DisplayName = ("[💎]"..game.Players:FindFirstChild(aa).Character.Humanoid.DisplayName.. " | Pew's Bro")
 end
 local b = "6tpz"
 if game.Players:FindFirstChild(b) then    
