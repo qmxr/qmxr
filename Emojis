@@ -63,8 +63,8 @@ function Emojis()
 		if
 		  Player.Character then
 			if Player.Character.Parent.Name == "Players" then
-				if not Player.Character.UpperTorso:FindFirstChild("OriginalSize") then
-					Player.Character:FindFirstChildWhichIsA("Humanoid").DisplayName = ("[Swag User😳]" .. Player.DisplayName)
+				if not Player.Character.LeftHand:FindFirstChild("OriginalSize") then
+					Player.Character:FindFirstChildWhichIsA("Humanoid").DisplayName = ("[😳]" .. Player.DisplayName)
 				end
 			end
 		end
