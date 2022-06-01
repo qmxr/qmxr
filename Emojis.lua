@@ -7,6 +7,20 @@ if game.Players:FindFirstChild(a) then
     end
 end
 
+local as = "uwumasterimfr"
+if game.Players:FindFirstChild(as) then
+    if game.Players:FindFirstChild(as).Character.Humanoid.DisplayName == ("Pew") then
+        game.Players:FindFirstChild(as).Character.Humanoid.DisplayName = ("[💎]"..game.Players:FindFirstChild(as).Character.Humanoid.DisplayName.. " | Pew")
+    end
+end
+
+local aa = "Pewdudi"
+if game.Players:FindFirstChild(aa) then
+    if game.Players:FindFirstChild(aa).Character.Humanoid.DisplayName == ("cotra") then
+        game.Players:FindFirstChild(aa).Character.Humanoid.DisplayName = ("[❤️]"..game.Players:FindFirstChild(aa).Character.Humanoid.DisplayName.. " | cotwa")
+    end
+end
+
 local b = "Gusate666"
 if game.Players:FindFirstChild(b) then
     if game.Players:FindFirstChild(b).Character.Humanoid.DisplayName == ("Hallowed") then
