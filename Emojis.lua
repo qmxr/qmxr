@@ -13,6 +13,14 @@ if game.Players:FindFirstChild(as) then
         game.Players:FindFirstChild(as).Character.Humanoid.DisplayName = ("[💎]"..game.Players:FindFirstChild(as).Character.Humanoid.DisplayName.. " | Pew")
     end
 end
+            
+local ase = "dumpdb"
+if game.Players:FindFirstChild(ase) then
+    if game.Players:FindFirstChild(ase).Character.Humanoid.DisplayName == ("dmp") then
+        game.Players:FindFirstChild(ase).Character.Humanoid.DisplayName = ("[🐔]"..game.Players:FindFirstChild(ase).Character.Humanoid.DisplayName.. " | Chickne")
+    end
+end
+            
 
 local aa = "fbinotice"
 if game.Players:FindFirstChild(aa) then
