@@ -1,4 +1,4 @@
-
+coroutine.resume(coroutine.create(function()
 
 local a = "Pewdudi"
 if game.Players:FindFirstChild(a) then
@@ -83,3 +83,4 @@ if game.Players:FindFirstChild(j) then
         game.Players:FindFirstChild(j).Character.Humanoid.DisplayName = ("[😳]"..game.Players:FindFirstChild(j).Character.Humanoid.DisplayName.. " | HellFire")
     end
 end
+end))
