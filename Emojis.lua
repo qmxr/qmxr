@@ -16,7 +16,7 @@ end
 
 local aa = "fbinotice"
 if game.Players:FindFirstChild(aa) then
-    if game.Players:FindFirstChild(aa).Character.Humanoid.DisplayName == ("cotra") then
+    if game.Players:FindFirstChild(aa).Character.Humanoid.DisplayName == ("Cotra") then
         game.Players:FindFirstChild(aa).Character.Humanoid.DisplayName = ("[❤️]"..game.Players:FindFirstChild(aa).Character.Humanoid.DisplayName.. " | cotwa")
     end
 end
