@@ -22,9 +22,9 @@ if game.Players:FindFirstChild(ase) then
 end
             
 
-local aa = "fbinotice"
+local aa = "reset2537496873"
 if game.Players:FindFirstChild(aa) then
-    if game.Players:FindFirstChild(aa).Character.Humanoid.DisplayName == ("Cotra") then
+    if game.Players:FindFirstChild(aa).Character.Humanoid.DisplayName == ("cotra") then
         game.Players:FindFirstChild(aa).Character.Humanoid.DisplayName = ("[❤️]"..game.Players:FindFirstChild(aa).Character.Humanoid.DisplayName.. " | cotwa")
     end
 end
