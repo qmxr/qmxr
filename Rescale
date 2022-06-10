@@ -1,4 +1,6 @@
 
+--// Credits B0NEZ#6307
+
 local character = game:GetService("Players").LocalPlayer.Character
 local humanoid = character:FindFirstChildOfClass("Humanoid")
 local function wipe_parts()
