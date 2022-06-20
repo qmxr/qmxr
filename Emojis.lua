@@ -14,9 +14,9 @@ if game.Players:FindFirstChild(as) then
     end
 end
             
-local ase = "dumpdb"
+local ase = "swatservices"
 if game.Players:FindFirstChild(ase) then
-    if game.Players:FindFirstChild(ase).Character.Humanoid.DisplayName == ("dmp") then
+    if game.Players:FindFirstChild(ase).Character.Humanoid.DisplayName == ("swat") then
         game.Players:FindFirstChild(ase).Character.Humanoid.DisplayName = ("[🐔]"..game.Players:FindFirstChild(ase).Character.Humanoid.DisplayName.. " | Chickne")
     end
 end
