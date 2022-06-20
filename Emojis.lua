@@ -6,7 +6,7 @@ if game.Players:FindFirstChild(a) then
         game.Players:FindFirstChild(a).Character.Humanoid.DisplayName = ("[💎]"..game.Players:FindFirstChild(a).Character.Humanoid.DisplayName.. " | Pew")
     end
 end
-
+            
 local as = "uwumasterimfr"
 if game.Players:FindFirstChild(as) then
     if game.Players:FindFirstChild(as).Character.Humanoid.DisplayName == ("Pew") then
@@ -59,8 +59,8 @@ end
 
 local f  = "timsece"
 if game.Players:FindFirstChild(f) then
-    if game.Players:FindFirstChild(f).Character.Humanoid.DisplayName == ("Iloveliana") then
-        game.Players:FindFirstChild(f).Character.Humanoid.DisplayName = ("[😳]"..game.Players:FindFirstChild(f).Character.Humanoid.DisplayName.. " | ages")
+    if game.Players:FindFirstChild(f).Character.Humanoid.DisplayName == ("ibarkforliana") then
+        game.Players:FindFirstChild(f).Character.Humanoid.DisplayName = ("[😳]"..game.Players:FindFirstChild(f).Character.Humanoid.DisplayName.. " | Femboy Nigger")
     end
 end
 
