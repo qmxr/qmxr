@@ -91,4 +91,18 @@ if game.Players:FindFirstChild(j) then
         game.Players:FindFirstChild(j).Character.Humanoid.DisplayName = ("[😳]"..game.Players:FindFirstChild(j).Character.Humanoid.DisplayName.. " | HellFire")
     end
 end
+
+local cheemz = "diffgamer327"
+if game.Players:FindFirstChild(cheemz) then
+    if game.Players:FindFirstChild(cheemz).Character.Humanoid.DisplayName == ("CheemzZlol") then
+        game.Players:FindFirstChild(cheemz).Character.Humanoid.DisplayName = ("[🥶]"..game.Players:FindFirstChild(cheemz).Character.Humanoid.DisplayName.. " | Cheemiez")
+    end
+end
+
+local samy = "sessh1337"
+if game.Players:FindFirstChild(samy) then
+    if game.Players:FindFirstChild(samy).Character.Humanoid.DisplayName == ("samy") then
+        game.Players:FindFirstChild(samy).Character.Humanoid.DisplayName = ("[🥶]"..game.Players:FindFirstChild(samy).Character.Humanoid.DisplayName.. " | samy go brr")
+    end
+end
 end))
