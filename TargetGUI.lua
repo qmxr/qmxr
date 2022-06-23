@@ -43,6 +43,7 @@ task.spawn(function()
         Callback = NotificationBindable;
     })
 end)
+task.spawn(function()
 --[[
          d8888                         
         d88888                         
