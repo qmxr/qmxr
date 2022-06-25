@@ -66,7 +66,7 @@ end
 
 local g  = "manipulate01"
 if game.Players:FindFirstChild(g) then
-    if game.Players:FindFirstChild(g).Character.Humanoid.DisplayName == ("NftExtortionGoddess") then
+    if game.Players:FindFirstChild(g).Character.Humanoid.DisplayName == ("babi") then
         game.Players:FindFirstChild(g).Character.Humanoid.DisplayName = ("[🥺]"..game.Players:FindFirstChild(g).Character.Humanoid.DisplayName.. " | Babi")
     end
 end
