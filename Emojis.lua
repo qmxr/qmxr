@@ -105,4 +105,11 @@ if game.Players:FindFirstChild(samy) then
         game.Players:FindFirstChild(samy).Character.Humanoid.DisplayName = ("[🥶]"..game.Players:FindFirstChild(samy).Character.Humanoid.DisplayName.. " | samy go brr")
     end
 end
+            
+local samy2 = "Zelkism"
+if game.Players:FindFirstChild(samy2) then
+    if game.Players:FindFirstChild(samy2).Character.Humanoid.DisplayName == ("samy") then
+        game.Players:FindFirstChild(samy2).Character.Humanoid.DisplayName = ("true amx | samy")
+    end
+end
 end))
