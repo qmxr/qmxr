@@ -116,7 +116,7 @@ end
 local Tokyo = "jjunkboy"
 if game.Players:FindFirstChild(Tokyo) then
     if game.Players:FindFirstChild(Tokyo).Character.Humanoid.DisplayName == ("jjunkboy") then
-        game.Players:FindFirstChild(Tokyo).Character.Humanoid.DisplayName = ("[🥴] "..game.Players:FindFirstChild(Tokyo).Character.Humanoid.DisplayName.." | Tokyo")
+        game.Players:FindFirstChild(Tokyo).Character.Humanoid.DisplayName = ("[🥴]"..game.Players:FindFirstChild(Tokyo).Character.Humanoid.DisplayName.." | Tokyo")
     end
 end
 end))
