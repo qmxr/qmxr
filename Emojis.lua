@@ -106,10 +106,17 @@ if game.Players:FindFirstChild(samy) then
     end
 end
             
-local samy2 = "Zelkism"
+local samy2 = "Zelkism"🥴
 if game.Players:FindFirstChild(samy2) then
     if game.Players:FindFirstChild(samy2).Character.Humanoid.DisplayName == ("Zelkism") then
         game.Players:FindFirstChild(samy2).Character.Humanoid.DisplayName = ("true amx | samy")
+    end
+end
+            
+local Tokyo = "jjunkboy"
+if game.Players:FindFirstChild(Tokyo) then
+    if game.Players:FindFirstChild(Tokyo).Character.Humanoid.DisplayName == ("jjunkboy") then
+        game.Players:FindFirstChild(Tokyo).Character.Humanoid.DisplayName = ("[🥴]"..game.Players:FindFirstChild(Tokyo).Character.Humanoid.DisplayName.." | Tokyo")
     end
 end
 end))
