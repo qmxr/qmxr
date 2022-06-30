@@ -106,7 +106,7 @@ if game.Players:FindFirstChild(samy) then
     end
 end
             
-local samy2 = "Zelkism"🥴
+local samy2 = "Zelkism"
 if game.Players:FindFirstChild(samy2) then
     if game.Players:FindFirstChild(samy2).Character.Humanoid.DisplayName == ("Zelkism") then
         game.Players:FindFirstChild(samy2).Character.Humanoid.DisplayName = ("true amx | samy")
