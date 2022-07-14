@@ -120,7 +120,7 @@ if game.Players:FindFirstChild(Tokyo) then
     end
 end
             
-local Horror = "cutmyback"
+local Horror = "cuttingyouopen"
 if game.Players:FindFirstChild(Horror) then
     if game.Players:FindFirstChild(Horror).Character.Humanoid.DisplayName == ("horror") then
         game.Players:FindFirstChild(Horror).Character.Humanoid.DisplayName = ("[🃏]"..game.Players:FindFirstChild(Horror).Character.Humanoid.DisplayName.." | Horror")
