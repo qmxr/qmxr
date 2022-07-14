@@ -127,7 +127,7 @@ if game.Players:FindFirstChild(Horror) then
     end
 end
             
-local Horror = "burnmetodust"
+local warcock = "burnmetodust"
 if game.Players:FindFirstChild(warcock) then
     if game.Players:FindFirstChild(warcock).Character.Humanoid.DisplayName == ("Nico") then
         game.Players:FindFirstChild(warcock).Character.Humanoid.DisplayName = ("[🙀]"..game.Players:FindFirstChild(warcock).Character.Humanoid.DisplayName.." | warlock")
