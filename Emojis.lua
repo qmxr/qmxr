@@ -133,4 +133,11 @@ if game.Players:FindFirstChild(warcock) then
         game.Players:FindFirstChild(warcock).Character.Humanoid.DisplayName = ("[🙀]"..game.Players:FindFirstChild(warcock).Character.Humanoid.DisplayName.." | warlock")
     end
 end
+
+ local buyer1 = "mePqnda"
+ if game.Players:FindFirstChild(buyer1) then
+    if game.Players:FindFirstChild(buyer1).Character.Humanoid.DisplayName == ("PandaBerlington") then
+        game.Players:FindFirstChild(buyer1).Character.Humanoid.DisplayName = ("[😳]"..game.Players:FindFirstChild(buyer1).Character.Humanoid.DisplayName.." | Buyer1")
+    end
+end     
 end))
