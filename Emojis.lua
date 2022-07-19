@@ -146,5 +146,12 @@ end
         game.Players:FindFirstChild(buyer2).Character.Humanoid.DisplayName = ("[😳]"..game.Players:FindFirstChild(buyer2).Character.Humanoid.DisplayName.." | solar")
     end
 end
+--
+local buyer3 = "hinterguy1243"
+if game.Players:FindFirstChild(buyer3) then
+    if game.Players:FindFirstChild(buyer3).Character.Humanoid.DisplayName == ("Hinter") then
+        game.Players:FindFirstChild(buyer3).Character.Humanoid.DisplayName = ("[💀]"..game.Players:FindFirstChild(buyer3).Character.Humanoid.DisplayName.." | Minter")
+    end
+end
             
 end))
