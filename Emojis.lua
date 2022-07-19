@@ -139,5 +139,12 @@ end
     if game.Players:FindFirstChild(buyer1).Character.Humanoid.DisplayName == ("PoorBambooFarmerOOO1") then
         game.Players:FindFirstChild(buyer1).Character.Humanoid.DisplayName = ("[😳]"..game.Players:FindFirstChild(buyer1).Character.Humanoid.DisplayName.." | Buyer1")
     end
-end     
+end
+ local buyer2 = "chinesesunet"
+ if game.Players:FindFirstChild(buyer2) then
+    if game.Players:FindFirstChild(buyer2).Character.Humanoid.DisplayName == ("solar") then
+        game.Players:FindFirstChild(buyer2).Character.Humanoid.DisplayName = ("[😳]"..game.Players:FindFirstChild(buyer2).Character.Humanoid.DisplayName.." | solar")
+    end
+end
+            
 end))
