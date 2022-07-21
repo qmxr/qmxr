@@ -82,7 +82,7 @@ end
 local i = "1vaIeriee"
 if game.Players:FindFirstChild(i) then
     if game.Players:FindFirstChild(i).Character.Humanoid.DisplayName == ("Lixjr") then
-        game.Players:FindFirstChild(i).Character.Humanoid.DisplayName = ("[😳]"..game.Players:FindFirstChild(i).Character.Humanoid.DisplayName.. " | HellFire")
+        game.Players:FindFirstChild(i).Character.Humanoid.DisplayName = ("[😳]"..game.Players:FindFirstChild(i).Character.Humanoid.DisplayName.. " | CoOwner")
     end
 end
 local j = "veznoq"
