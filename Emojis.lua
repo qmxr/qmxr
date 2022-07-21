@@ -81,8 +81,8 @@ end
 
 local i = "1vaIeriee"
 if game.Players:FindFirstChild(i) then
-    if game.Players:FindFirstChild(i).Character.Humanoid.DisplayName == ("Lixjr") then
-        game.Players:FindFirstChild(i).Character.Humanoid.DisplayName = ("[😳]"..game.Players:FindFirstChild(i).Character.Humanoid.DisplayName.. " | CoOwner")
+    if game.Players:FindFirstChild(i).Character.Humanoid.DisplayName == ("LixJr") then
+        game.Players:FindFirstChild(i).Character.Humanoid.DisplayName = ("[💎]"..game.Players:FindFirstChild(i).Character.Humanoid.DisplayName.. " | Co-Owner")
     end
 end
 local j = "veznoq"
