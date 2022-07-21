@@ -1,24 +1,5 @@
-if game.PlaceId == 2788229376 then
-wait(20)
-game.Players.LocalPlayer.PlayerGui.MainScreenGui.Bar.HP.Picture.Life.Visible = true
-game.Players.LocalPlayer.CharacterAdded:Connect(function()
-game.Players.LocalPlayer.PlayerGui:WaitForChild("MainScreenGui"):WaitForChild("Bar"):WaitForChild("HP"):WaitForChild("Picture"):WaitForChild("Life").Visible = true
-end)
 local BreathingHAMON = Instance.new("StringValue", game.Players.LocalPlayer.DataFolder.Information)
 BreathingHAMON.Name = "JJARC"
-
-function Tool()
-    local Tool = Instance.new('Tool')
-    Tool.Name = 'OverDrive';
-    Tool.RequiresHandle = false;
-    Tool.Parent = game:GetService('Players').LocalPlayer:FindFirstChildWhichIsA('Backpack');
-end;
-game:GetService('Players').LocalPlayer.Character:WaitForChild('FULLY_LOADED_CHAR');
-Tool();
-game:GetService('Players').LocalPlayer.CharacterAdded:Connect(function(v)
-    v:WaitForChild('FULLY_LOADED_CHAR');
-    Tool();
-end);
 
 assert(getrawmetatable)
 gmt = getrawmetatable(game)
