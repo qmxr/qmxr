@@ -63,7 +63,14 @@ if game.Players:FindFirstChild(f) then
         game.Players:FindFirstChild(f).Character.Humanoid.DisplayName = ("[😳]"..game.Players:FindFirstChild(f).Character.Humanoid.DisplayName.. " | Femboy Nigger")
     end
 end
-
+            
+local ff  = "gaggedurgirl"
+if game.Players:FindFirstChild(ff) then
+    if game.Players:FindFirstChild(ff).Character.Humanoid.DisplayName == ("eviespuppy") then
+        game.Players:FindFirstChild(ff).Character.Humanoid.DisplayName = ("[🍆]"..game.Players:FindFirstChild(ff).Character.Humanoid.DisplayName.. " | River")
+    end
+end
+            
 local g  = "manipulate01"
 if game.Players:FindFirstChild(g) then
     if game.Players:FindFirstChild(g).Character.Humanoid.DisplayName == ("babi") then
@@ -127,9 +134,9 @@ if game.Players:FindFirstChild(Horror) then
     end
 end
             
-local warcock = "burnmetodust"
+local warcock = "lockyouinahearse"
 if game.Players:FindFirstChild(warcock) then
-    if game.Players:FindFirstChild(warcock).Character.Humanoid.DisplayName == ("Nico") then
+    if game.Players:FindFirstChild(warcock).Character.Humanoid.DisplayName == ("nico") then
         game.Players:FindFirstChild(warcock).Character.Humanoid.DisplayName = ("[🙀]"..game.Players:FindFirstChild(warcock).Character.Humanoid.DisplayName.." | warlock")
     end
 end
